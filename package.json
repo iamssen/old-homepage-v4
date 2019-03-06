@@ -1,0 +1,20 @@
+{
+  "name": "iamssen_v4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "zeroconfig web.dev.start",
+    "build": "zeroconfig web.build",
+    "publish": "surge dist/web"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-zeroconfig": "^2.0.0-alpha.1"
+  }
+}
